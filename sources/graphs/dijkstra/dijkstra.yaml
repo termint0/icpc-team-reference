@@ -1,0 +1,4 @@
+name: Dijkstra's algorithm
+description: Finds shortest path in graph with weighted edges
+time: O((V + E) log V)
+# memory: blablabla
