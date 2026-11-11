@@ -1,0 +1,55 @@
+name: Build PDF
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-latex-base \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-pictures
+
+      - name: Build PDF
+        run: |
+          python build_book.py sources \
+            -o algorithms \
+            --institution "University of Twente" \
+            $([ -f cover.tex ] && echo "--cover cover.tex")
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: algorithms-pdf
+          path: algorithms.pdf
+          if-no-files-found: error
+
+      - name: Upload LaTeX log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: latex-log
+          path: algorithms.log
+          if-no-files-found: ignore
