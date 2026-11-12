@@ -1,0 +1,5 @@
+name: Rolling Hash
+description: "Polynomial hash mod 2^61-1. To compare substrings of different strings, pass the same base to both."
+time:
+  build: O(n)
+  hash: O(1)

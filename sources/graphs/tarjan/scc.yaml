@@ -1,0 +1,8 @@
+name: Strongy Connected Components (Tarjan)
+description: "Finds all strongly connected components. Returns 3-tuple of:
+components: list of lists, reverse topological order (if exists edge A -> B, B is before A)
+, cond graph: adjacency list of the condensation graph (graph of components), indexed using root vertices, can contain duplicates
+, root: root[v] is the root of component v is in
+  "
+time: O(V + E)
+memory: O(V + E)

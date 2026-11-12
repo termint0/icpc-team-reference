@@ -1,0 +1,4 @@
+name: Extended euclidean algo
+description: outputs tuple (g, x, y) where g = gcd(a,b) and x*a + y*b = g
+time: O(log min(a,b))
+
