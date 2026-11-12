@@ -2,8 +2,18 @@ name: Build PDF
 
 on:
   push:
+    tags: ["v*"]          # releases on version tags
   pull_request:
   workflow_dispatch:
+    inputs:
+      release:
+        description: "Create a GitHub release with the PDF"
+        type: boolean
+        default: false
+      tag:
+        description: "Release tag (e.g. v1.0.0), required if releasing"
+        type: string
+        required: false
 
 permissions:
   contents: read
@@ -53,3 +63,24 @@ jobs:
           name: latex-log
           path: algorithms.log
           if-no-files-found: ignore
+
+  release:
+    needs: build
+    if: >
+      startsWith(github.ref, 'refs/tags/v') ||
+      (github.event_name == 'workflow_dispatch' && inputs.release)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # needed to create the release
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: algorithms-pdf
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+          name: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+          files: algorithms.pdf
+          generate_release_notes: true
