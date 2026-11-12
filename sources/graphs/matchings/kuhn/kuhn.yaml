@@ -1,0 +1,4 @@
+name: Kuhn's algorithm
+description: Find a bipartite matching. m in input is number of right vertices. result[r] is the left vertex matched to r
+time: O(V * E)
+space: O(V + M)

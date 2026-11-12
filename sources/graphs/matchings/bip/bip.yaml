@@ -1,0 +1,4 @@
+name: Bipartite check
+description: Check if graph is bipartite, e.g. if you can split it into 2 sets where edges are only between them. Returns left and right or None if not bipartite.
+time: O(V + E)
+memory: O(n)

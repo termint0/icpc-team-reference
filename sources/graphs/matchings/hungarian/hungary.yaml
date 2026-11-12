@@ -1,0 +1,3 @@
+name: Hungarian Algorithm
+description: Algo to find lowest cost matching. Input is an (n x m; n <= m) cost matrix. Returns tuple of lowest cost possible and list ans where ans[i] is idx of col assigned to row i.
+time: O(n^3)
