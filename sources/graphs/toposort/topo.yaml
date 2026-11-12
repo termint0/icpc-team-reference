@@ -1,0 +1,3 @@
+name: Toposort
+description: Sorts a directed graphs vertices
+time: O(V + E)

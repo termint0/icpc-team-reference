@@ -1,0 +1,10 @@
+name: Fenwick Tree (BIT)
+description: "Needs a commutative operation (invertible for range query)
+  when using, replace <op>, <inv> and <e>, e.g. with (+, -, 0) for addition
+
+  "
+time:
+  build: O(n)
+  add: O(log(n))
+  query: O(log(n))
+memory: O(n)

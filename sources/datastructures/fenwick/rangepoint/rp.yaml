@@ -1,0 +1,7 @@
+name: Range update, Point query
+description: "Range update point query variation of Fenwick tree"
+time:
+  build: O(n)
+  add: O(log(n))
+  query: O(log(n))
+memory: O(n)

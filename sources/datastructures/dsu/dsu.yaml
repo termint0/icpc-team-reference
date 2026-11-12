@@ -1,0 +1,6 @@
+name: Disjoint Set Union
+# description: 
+time:
+  find: O(log n)
+  union: O(log n)
+memory: O(n)

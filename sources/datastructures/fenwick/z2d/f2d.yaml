@@ -1,0 +1,10 @@
+name: Fenwick Tree - 2D
+description: "Needs a commutative operation (invertible for range query)
+  when using, replace <op>, <inv> and <e>, e.g. with (+, -, 0) for addition
+
+  "
+time:
+  build: O(n * m)
+  add: O(log(n) * log(m))
+  query: O(log(n) * log(m))
+memory: O(n * m)

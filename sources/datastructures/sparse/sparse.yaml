@@ -1,0 +1,7 @@
+name: Sparse Table
+time:
+  build: O(n * log(n))
+  lookup: O(1)
+memory: O(n * log(n))
+description: "Sparse table for a static array. <op> must be associative and idempotent
+    (op(x, x) == x): min, max, gcd, and, or."

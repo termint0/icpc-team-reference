@@ -1,0 +1,5 @@
+name: Lowest Common Ancestor
+time:
+  build: O(n)
+  query: O(log n)
+

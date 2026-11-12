@@ -1,0 +1,7 @@
+name: Range update, range query
+description: "Range update range query variation of Fenwick tree. replace <*> with n times op (e.g. op = + means <*> = *)"
+time:
+  build: O(n)
+  add: O(log(n))
+  query: O(log(n))
+memory: O(n)
