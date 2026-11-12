@@ -81,6 +81,16 @@ def complexity(value) -> str:
     return esc(s)
 
 
+def fmt_complexity(value) -> str:
+    """A complexity is a string, a list of strings, or a dict {label: complexity}."""
+    if isinstance(value, dict):
+        return ", ".join(f"\\textit{{{esc(k)}}}: {fmt_complexity(v)}"
+                         for k, v in value.items())
+    if isinstance(value, (list, tuple)):
+        return ", ".join(fmt_complexity(v) for v in value)
+    return complexity(value)
+
+
 def load_meta(path: Path) -> dict:
     raw = path.read_text(encoding="utf-8")
     if path.suffix == ".json":
@@ -127,9 +137,9 @@ def render_leaf(directory: Path, py: Path, meta_path: Path, depth: int,
 
     info = []
     if meta["time"] is not None:
-        info.append(f"\\textbf{{Time:}} {complexity(meta['time'])}")
+        info.append(f"\\textbf{{Time:}} {fmt_complexity(meta['time'])}")
     if meta["memory"] is not None:
-        info.append(f"\\textbf{{Memory:}} {complexity(meta['memory'])}")
+        info.append(f"\\textbf{{Memory:}} {fmt_complexity(meta['memory'])}")
     if info:
         out.append("{\\small " + r"\quad ".join(info) + "}\\par\n")
     if meta["description"]:
