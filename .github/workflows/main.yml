@@ -34,7 +34,7 @@ jobs:
 
       - name: Build PDF
         run: |
-          python build_book.py sources \
+          python build.py sources \
             -o algorithms \
             --institution "University of Twente" \
             $([ -f cover.tex ] && echo "--cover cover.tex")
