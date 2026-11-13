@@ -1,0 +1,4 @@
+name: Minimum Spanning Tree
+description: tree spanning all vertices of G with minimum cost. Requires Disjoint Set Union.
+time: O(E log E)
+memory: O(E + V)
