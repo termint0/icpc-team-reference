@@ -1,0 +1,6 @@
+name: Euler path / circuit (Hierholzer)
+description: Returns the vertex sequence of an Euler path (a circuit when one exists) of an edge list,
+  for directed or undirected graphs (directed=True/False), or None if none exists. Iterative, handles
+  multi-edges and self-loops.
+time: O(V + E)
+memory: O(V + E)

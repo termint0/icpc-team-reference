@@ -1,0 +1,6 @@
+name: Fast Walsh-Hadamard transform
+description: fwht(a, mode, invert) transforms in place for mode 'xor', 'and' or 'or' (length a power of
+  two, exact for integers); fwht_convolution(a, b, mode) gives c[k] = sum over i op j = k of a[i]*b[j]
+  (subset convolution needs an extra ranked transform).
+time: O(n*log(n))
+memory: O(n)

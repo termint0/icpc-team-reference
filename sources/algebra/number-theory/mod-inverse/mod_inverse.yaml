@@ -1,0 +1,6 @@
+name: Modular inverse (extended Euclid)
+description: Inverse of a modulo m for any m, via the extended Euclidean algorithm; requires gcd(a, m)
+  = 1 and raises ValueError otherwise. ext_gcd(a, b) returns (g, x, y) with a*x + b*y = g for a, b >=
+  0. For prime m, a^(m-2) mod m (Fermat) is an alternative.
+time: O(log(m))
+memory: O(1)

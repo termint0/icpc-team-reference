@@ -1,0 +1,5 @@
+name: Polygon area
+description: polygon_area2 returns twice the signed area (positive for counter-clockwise), exact for integer
+  coordinates.
+time: O(n)
+memory: O(1)

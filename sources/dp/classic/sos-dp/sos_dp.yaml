@@ -1,0 +1,5 @@
+name: Sum over subsets (SOS DP)
+description: 'sos_subset_sum: f[mask] = sum of a[s] over all s subset of mask; sos_superset_sum over supersets;
+  sos_inverse undoes the subset transform. b is the number of bits.'
+time: O(2^b * b)
+memory: O(2^b)

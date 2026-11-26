@@ -1,0 +1,5 @@
+name: Stoer-Wagner global min cut
+description: Minimum cut of an undirected weighted graph given as a symmetric adjacency matrix with zero
+  diagonal; returns (weight, vertices of one side).
+time: O(V^3)
+memory: O(V^2)

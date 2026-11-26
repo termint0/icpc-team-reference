@@ -1,0 +1,6 @@
+name: Digit DP
+description: 'Counts x in [0, N] whose digits satisfy a property. Give the initial state, step(state,
+  digit) -> new state or None (prune), accept(final_state) and the base. Leading zeros are skipped (state
+  only starts at the first non-zero digit). Cost is per digit: number of states times base.'
+time: O(len(N) * states * base)
+memory: O(states)

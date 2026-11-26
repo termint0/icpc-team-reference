@@ -1,0 +1,9 @@
+name: Implicit treap
+description: 'Randomised balanced tree over a sequence: insert / erase at an index, reverse a range, range
+  sum, to_list. Add more lazy fields (e.g. add) by extending _push / _upd.'
+time:
+  insert: O(log(n)) expected
+  erase: O(log(n)) expected
+  reverse: O(log(n)) expected
+  sum: O(log(n)) expected
+memory: O(n)

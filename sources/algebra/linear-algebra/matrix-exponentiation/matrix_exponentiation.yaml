@@ -1,0 +1,7 @@
+name: Matrix exponentiation
+description: 'mat_mul multiplies matrices (optionally mod m) and mat_pow raises a square matrix to a power
+  by repeated squaring, e.g. linear recurrences / Fibonacci: [[1,1],[1,0]]^n.'
+time:
+  mat_mul: O(n^3)
+  mat_pow: O(n^3*log(e))
+memory: O(n^2)

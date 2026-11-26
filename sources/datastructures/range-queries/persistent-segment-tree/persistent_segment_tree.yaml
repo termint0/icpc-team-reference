@@ -1,0 +1,9 @@
+name: Persistent segment tree
+description: Every point add returns a new root and keeps all old versions (root 0 = all zeros). query
+  sums a range of positions in one version; kth(ra, rb, k) finds the k-th smallest value in version ra
+  minus rb, which gives range k-th smallest with one version per prefix. q = number of updates.
+time:
+  add: O(log(n))
+  query: O(log(n))
+  kth: O(log(n))
+memory: O(n + q*log(n))

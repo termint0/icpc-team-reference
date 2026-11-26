@@ -1,0 +1,8 @@
+name: Meet in the middle (subset sums)
+description: meet_in_the_middle_count(a, target) counts subsets with a given sum; closest_subset_sum(a,
+  target) finds the largest achievable subset sum <= target (None if none). Handles negative numbers.
+  Good for n up to about 40.
+time:
+  count: O(2^(n/2))
+  closest: O(2^(n/2) * n)
+memory: O(2^(n/2))

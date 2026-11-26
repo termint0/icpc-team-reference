@@ -1,0 +1,8 @@
+name: Binary lifting (k-th ancestor, LCA)
+description: Jump pointers up[j][v] = 2^j-th ancestor of v. kth_ancestor(v, k) clamps at the root; lca(u,
+  v) and dist(u, v) in edges. Build from tree adjacency lists and a root.
+time:
+  build: O(n*log(n))
+  kth_ancestor: O(log(n))
+  lca: O(log(n))
+memory: O(n*log(n))

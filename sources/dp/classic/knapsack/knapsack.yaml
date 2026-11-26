@@ -1,0 +1,9 @@
+name: Knapsack (0/1, unbounded, bounded)
+description: knapsack_01 (each item once), knapsack_unbounded (any number of copies) and knapsack_bounded
+  (counts[i] copies, binary splitting) maximise value with total weight <= W. n items, c = largest count.
+  Returns the best value.
+time:
+  knapsack_01: O(n*W)
+  knapsack_unbounded: O(n*W)
+  knapsack_bounded: O(n*W*log(c))
+memory: O(W)

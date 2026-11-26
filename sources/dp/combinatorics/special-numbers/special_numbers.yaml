@@ -1,0 +1,8 @@
+name: Catalan, Stirling and Bell numbers
+description: catalan(n), stirling2_table(n) (partitions into k blocks), stirling1_table(n) (unsigned,
+  permutations with k cycles) and bell(n). Exact integers; reduce mod p if needed.
+time:
+  catalan: O(n)
+  stirling tables: O(n^2)
+  bell: O(n^2)
+memory: O(n^2)

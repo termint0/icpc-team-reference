@@ -1,0 +1,8 @@
+name: Pollard's rho factorisation
+description: Returns the sorted prime factors of n with multiplicity. Strips small primes first, tests
+  the cofactor with Miller-Rabin and splits composites with a randomised Floyd cycle search. Expected
+  time is heuristic.
+  Requires Miller Rabin.
+time:
+  expected: O(n^(1/4))
+memory: O(log(n))

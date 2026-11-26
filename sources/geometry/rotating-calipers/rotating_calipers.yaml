@@ -1,0 +1,5 @@
+name: Rotating calipers (convex diameter)
+description: Squared diameter (farthest pair) of a convex polygon given as a counter-clockwise strict
+  hull, e.g. the output of convex_hull.
+time: O(n)
+memory: O(1)

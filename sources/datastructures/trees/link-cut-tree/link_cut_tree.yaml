@@ -1,0 +1,10 @@
+name: Link-cut tree
+description: Dynamic forest with link, cut, connected and path sums (set_value for point updates). Nodes
+  are 0..n-1; link returns False if u and v are already connected, cut False if the edge does not exist.
+  Splay-based; every operation is amortised.
+time:
+  link: O(log(n)) amortized
+  cut: O(log(n)) amortized
+  connected: O(log(n)) amortized
+  path_sum: O(log(n)) amortized
+memory: O(n)

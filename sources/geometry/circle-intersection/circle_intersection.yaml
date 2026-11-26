@@ -1,0 +1,5 @@
+name: Circle intersection
+description: 'Intersection points of two circles (floats): [] if disjoint or nested, one point if tangent,
+  two otherwise; None if the circles coincide.'
+time: O(1)
+memory: O(1)

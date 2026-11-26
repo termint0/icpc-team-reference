@@ -1,0 +1,6 @@
+name: Johnson's algorithm
+description: 'All pairs shortest paths with negative edges but no negative cycle: Bellman-Ford potentials,
+  then Dijkstra from each source on reweighted edges. Edge list input; returns the matrix or None if there
+  is a negative cycle. Beats Floyd-Warshall on sparse graphs.'
+time: O(V*E*log(V))
+memory: O(V^2)

@@ -1,0 +1,7 @@
+name: Rerooting DP
+description: 'Computes for every vertex the DP of the whole tree rooted there. Give: identity e, merge
+  (associative + commutative), lift(dp_child, child, parent) turning a child''s value into a contribution
+  for its parent (edge weight etc.), and finalize(v, merged). Example: sum of distances uses (size, dist-sum)
+  pairs. Costs are multiplied by the cost of merge / lift.'
+time: O(n)
+memory: O(n)

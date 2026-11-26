@@ -1,0 +1,6 @@
+name: Fast Fourier transform
+description: fft is an in-place complex FFT (length a power of two, invert=True for the inverse). convolution_fft
+  multiplies integer polynomials and rounds; exact only while coefficients stay below roughly 1e14/log(n)
+  (double precision). Use NTT for exact modular results.
+time: O(n*log(n))
+memory: O(n)

@@ -1,0 +1,6 @@
+name: KMP / prefix function
+description: prefix_function(s)[i] is the length of the longest proper border of s[:i+1]. kmp_search(text,
+  pat) returns the start of every (overlapping) occurrence. Works on any sequence type. n = |text|, m
+  = |pat|.
+time: O(n + m)
+memory: O(m)

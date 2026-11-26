@@ -1,0 +1,6 @@
+name: Monotone stack
+description: next_greater (index of the next strictly greater element or n), prev_smaller (index of the
+  previous strictly smaller or -1) and largest_rectangle (largest rectangle in a histogram). Flip comparisons
+  for the other variants.
+time: O(n)
+memory: O(n)

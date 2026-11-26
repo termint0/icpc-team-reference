@@ -113,7 +113,7 @@ def classify(directory: Path):
             continue
         if p.is_dir():
             subs.append(p)
-        elif p.suffix == ".py":
+        elif p.suffix == ".py" and not p.name.startswith("test"):
             py.append(p)
         elif p.suffix in META_EXTS:
             meta.append(p)

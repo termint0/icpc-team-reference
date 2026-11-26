@@ -1,0 +1,5 @@
+name: Z-function
+description: 'z[i] = longest common prefix of s and s[i:] (z[0] = n). Pattern matching: z of pattern +
+  separator + text.'
+time: O(n)
+memory: O(n)

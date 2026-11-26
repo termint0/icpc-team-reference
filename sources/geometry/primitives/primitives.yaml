@@ -1,0 +1,6 @@
+name: Geometry primitives
+description: Points are (x, y) tuples. sub, dot, cross2 (vector cross product), cross(o, a, b) = (a-o)
+  x (b-o) (> 0 for a left turn), dist2 (squared distance), sgn and on_segment(a, b, p). Keep integer coordinates
+  to stay exact.
+time: O(1)
+memory: O(1)

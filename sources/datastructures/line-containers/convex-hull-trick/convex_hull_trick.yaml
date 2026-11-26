@@ -1,0 +1,7 @@
+name: Convex hull trick (monotone slopes)
+description: Lower envelope of lines for min queries. Lines must be added with non-increasing slopes (equal
+  slopes keep the smaller intercept); queries are arbitrary and use binary search. Exact integer arithmetic.
+time:
+  add: O(1) amortized
+  query: O(log(n))
+memory: O(n)

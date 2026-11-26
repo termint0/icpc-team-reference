@@ -1,0 +1,4 @@
+name: Euler's totient function
+description: Number of integers in [1, n] coprime to n, by trial-dividing out prime factors.
+time: O(sqrt(n))
+memory: O(1)

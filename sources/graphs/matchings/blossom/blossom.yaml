@@ -1,0 +1,5 @@
+name: Edmonds' blossom (general matching)
+description: Maximum matching in a general (non-bipartite) graph given as adjacency lists; returns (size,
+  match) with match[v] = partner or -1. Contracts odd cycles on the fly.
+time: O(V^3)
+memory: O(V + E)

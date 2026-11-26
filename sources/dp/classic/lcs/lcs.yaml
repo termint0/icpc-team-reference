@@ -1,0 +1,4 @@
+name: Longest common subsequence
+description: Full DP table with reconstruction; returns one LCS as a list. Works on strings or lists.
+time: O(n*m)
+memory: O(n*m)

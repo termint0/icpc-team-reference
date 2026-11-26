@@ -1,0 +1,6 @@
+name: Order statistic set (pb_ds replacement)
+description: 'Sorted set of distinct comparable values in a list of blocks: insert, erase, membership,
+  order_of_key(x) (# elements < x), find_by_order(k) (k-th smallest, 0-indexed) and lower_bound(x). Python
+  has no pb_ds; this is the usual sqrt-bucket substitute.'
+time: O(sqrt(n)) per operation
+memory: O(n)

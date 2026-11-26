@@ -1,0 +1,5 @@
+name: Line intersection
+description: 'Lines through a, b and c, d: returns (1, point) for a single intersection (Fractions for
+  integer input), (0, None) if parallel and distinct, (-1, None) if they coincide.'
+time: O(1)
+memory: O(1)

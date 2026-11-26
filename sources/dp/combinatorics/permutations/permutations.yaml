@@ -1,0 +1,10 @@
+name: Permutation utilities
+description: next_permutation (in place, lexicographic, False after the last), kth_permutation(n, k) and
+  permutation_rank (0-indexed, permutations of 0..n-1), permutation_inverse and permutation_cycles.
+time:
+  next_permutation: O(n)
+  kth_permutation: O(n^2)
+  permutation_rank: O(n^2)
+  permutation_inverse: O(n)
+  permutation_cycles: O(n)
+memory: O(n)

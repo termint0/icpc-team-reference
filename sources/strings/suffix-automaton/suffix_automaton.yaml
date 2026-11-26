@@ -1,0 +1,10 @@
+name: Suffix automaton
+description: Online construction (extend(c) appends a character) of the smallest DFA accepting all suffixes.
+  Provides count_distinct (distinct non-empty substrings), contains(t) and longest_common_substring(t)
+  (length, end index in t). Transitions are dicts, so the bounds are for a constant alphabet.
+time:
+  build: O(n)
+  count_distinct: O(n)
+  contains: O(|t|)
+  longest_common_substring: O(|t|)
+memory: O(n)

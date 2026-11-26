@@ -1,0 +1,6 @@
+name: Knuth optimisation
+description: dp[i][j] = min over i < k < j of dp[i][k] + dp[k][j] + cost(i, j) on half-open intervals,
+  with dp[i][i+1] = 0 (optimal BST, merging stones). Requires the quadrangle inequality and monotonicity
+  of cost. Returns dp[0][n].
+time: O(n^2)
+memory: O(n^2)

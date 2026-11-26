@@ -1,0 +1,9 @@
+name: Simplex (linear programming)
+description: Maximise c.x subject to A x <= b, x >= 0 with a dense tableau (Bland-style tie-breaking,
+  two-phase for negative b). solve() returns (status, value, x) with status 'optimal', 'infeasible' or
+  'unbounded'. Floating point with EPS = 1e-9. Exponential in the worst case but fast in practice; m constraints,
+  n variables.
+time:
+  per pivot: O(m*n)
+  worst case: exponential
+memory: O(m*n)

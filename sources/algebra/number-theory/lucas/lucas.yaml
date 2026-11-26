@@ -1,0 +1,7 @@
+name: Lucas' theorem
+description: C(n, k) mod a small prime p for huge n and k, by multiplying C(n_i, k_i) over base-p digits.
+  Pass a prebuilt Binomial(p-1, p) to avoid rebuilding the table on every call. Requires Binomial mod p.
+time:
+  precompute: O(p)
+  query: O(log_p(n))
+memory: O(p)

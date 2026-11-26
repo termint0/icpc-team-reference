@@ -1,0 +1,6 @@
+name: Centroid decomposition
+description: 'Returns (cpar, level): parent of every vertex in the centroid tree and its depth (<= log2
+  n). The centroid-tree LCA of u and v always lies on the tree path u-v, which makes path-counting / distance
+  queries possible by walking up cpar from both ends.'
+time: O(n*log(n))
+memory: O(n)

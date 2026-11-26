@@ -1,0 +1,6 @@
+name: Bridges, articulation points, biconnected components
+description: One iterative lowlink DFS over an undirected edge list [(u, v)] returning (bridge edge ids,
+  sorted articulation points, list of edge-id lists per biconnected component). Handles parallel edges;
+  self-loops are ignored.
+time: O(V + E)
+memory: O(V + E)

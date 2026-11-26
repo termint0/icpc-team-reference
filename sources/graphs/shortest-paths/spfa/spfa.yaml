@@ -1,0 +1,5 @@
+name: SPFA (queue-based Bellman-Ford)
+description: Relaxes only vertices whose distance changed. Returns None if a negative cycle is reachable
+  from s. adj[u] = [(v, w)]. The bound is the worst case; usually close to O(E).
+time: O(V*E)
+memory: O(V)

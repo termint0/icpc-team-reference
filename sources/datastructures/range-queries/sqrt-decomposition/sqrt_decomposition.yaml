@@ -1,0 +1,9 @@
+name: Sqrt decomposition
+description: 'Blocks of size sqrt(n) with a lazy add per block: range add [l, r), range sum [l, r), point
+  get. A template for problems where no segment tree fits.'
+time:
+  build: O(n)
+  add: O(sqrt(n))
+  sum: O(sqrt(n))
+  get: O(1)
+memory: O(n)

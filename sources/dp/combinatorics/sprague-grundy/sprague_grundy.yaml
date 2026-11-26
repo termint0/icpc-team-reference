@@ -1,0 +1,6 @@
+name: Sprague-Grundy numbers
+description: grundy_table(N, options) builds g[0..N]; options(n, g) must return the Grundy values reachable
+  from n using already-computed entries (XOR the parts of a split position, e.g. g[a] ^ g[b]). mex is
+  the minimum excludant. A sum of games is losing iff the XOR of the Grundy values is 0.
+time: O(N * cost of options)
+memory: O(N)

@@ -1,0 +1,5 @@
+name: Min-cost max-flow
+description: Successive shortest augmenting paths found with SPFA, so negative edge costs are fine as
+  long as there is no negative cycle. flow(s, t, maxf) returns (flow, cost). F is the total flow value.
+time: O(F*V*E)
+memory: O(V + E)

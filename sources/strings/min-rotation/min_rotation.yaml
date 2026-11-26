@@ -1,0 +1,4 @@
+name: Minimal rotation
+description: Start index of the lexicographically smallest cyclic rotation of s (Duval on s+s).
+time: O(n)
+memory: O(n)

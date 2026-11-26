@@ -1,0 +1,6 @@
+name: Hopcroft-Karp bipartite matching
+description: Maximum matching of a bipartite graph with nl left and nr right vertices; adj[u] lists right
+  neighbours of left vertex u. Returns (size, matchL, matchR). Iterative DFS. Kuhn's algorithm is simpler
+  but O(V*E).
+time: O(E*sqrt(V))
+memory: O(V + E)

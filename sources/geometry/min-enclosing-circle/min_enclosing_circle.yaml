@@ -1,0 +1,6 @@
+name: Minimum enclosing circle
+description: Randomised incremental (Welzl-style) algorithm; returns (centre, radius) in floating point.
+  Shuffles its own copy of the input.
+time:
+  expected: O(n)
+memory: O(n)

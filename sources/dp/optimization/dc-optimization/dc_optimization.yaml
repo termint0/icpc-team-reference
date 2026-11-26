@@ -1,0 +1,6 @@
+name: Divide and conquer optimisation
+description: 'dp[k][i] = min over j < i of dp[k-1][j] + cost(j, i): split n items into K groups. Valid
+  when the optimal j is monotone in i (e.g. cost satisfies the quadrangle inequality). cost(j, i) is for
+  the half-open range [j, i); returns dp[K][n]. Time is multiplied by the cost of one cost() call.'
+time: O(K*n*log(n))
+memory: O(n)

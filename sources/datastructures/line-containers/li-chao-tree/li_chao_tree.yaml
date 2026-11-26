@@ -1,0 +1,8 @@
+name: Li Chao tree
+description: Stores lines k*x+m and answers the minimum at an integer x in [lo, hi]; lines may be added
+  in any order. For maximum, negate k and m (and the answer). C is the domain size hi - lo + 1; nodes
+  are created lazily.
+time:
+  add_line: O(log(C))
+  query: O(log(C))
+memory: O(n)

@@ -1,0 +1,5 @@
+name: Gaussian elimination (floating point)
+description: Gauss-Jordan with partial pivoting over floats; eps is the pivot / consistency threshold.
+  Returns (x, rank) with free variables 0, or None if the system is inconsistent.
+time: O(n*m*min(n,m))
+memory: O(n*m)

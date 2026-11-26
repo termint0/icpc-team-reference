@@ -1,0 +1,5 @@
+name: Tree diameter
+description: Two sweeps (farthest vertex from any start, then from it) on a weighted tree with non-negative
+  weights adj[u] = [(v, w)]; returns (length, vertex path).
+time: O(n)
+memory: O(n)

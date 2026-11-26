@@ -1,0 +1,5 @@
+name: Bellman-Ford
+description: Single-source shortest paths with negative edges on an edge list [(u, v, w)]. Vertices whose
+  distance is unbounded because of a reachable negative cycle get -inf; unreachable vertices get inf.
+time: O(V*E)
+memory: O(V)

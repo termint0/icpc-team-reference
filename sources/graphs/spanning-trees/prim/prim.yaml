@@ -1,0 +1,5 @@
+name: Prim's algorithm
+description: Minimum spanning forest with a heap on adjacency lists adj[u] = [(v, w)] of an undirected
+  graph; returns (total weight, parent list). Better than Kruskal on dense graphs.
+time: O(E*log(V))
+memory: O(V + E)

@@ -1,0 +1,9 @@
+name: Segment tree with lazy propagation
+description: 'Range update, range query on [l, r). Provide: op/e (monoid on values), mapping(f, x) applying
+  an update to a value, composition(f, g) = f after g, id_ (identity update). For range add + range sum
+  store (sum, length) pairs. Recursive implementation.'
+time:
+  build: O(n)
+  update: O(log(n))
+  query: O(log(n))
+memory: O(n)

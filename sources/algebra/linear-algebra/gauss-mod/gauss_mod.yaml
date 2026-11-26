@@ -1,0 +1,6 @@
+name: Gaussian elimination mod p
+description: solve_linear_mod(A, b, p) solves A x = b over a prime field by Gauss-Jordan elimination and
+  returns (x, rank) with free variables set to 0, or None if inconsistent. det_mod(A, p) is the determinant.
+  Here n x m is the matrix size.
+time: O(n*m*min(n,m))
+memory: O(n*m)

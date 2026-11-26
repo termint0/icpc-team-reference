@@ -1,0 +1,7 @@
+name: Merge sort tree
+description: Segment tree storing the sorted list of each node's range. count_less(l, r, x) counts elements
+  < x in a[l:r] (use bisect_right / x+1 for <=). Static array.
+time:
+  build: O(n*log(n))
+  query: O(log^2(n))
+memory: O(n*log(n))

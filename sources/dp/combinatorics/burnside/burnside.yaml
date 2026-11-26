@@ -1,0 +1,6 @@
+name: Burnside's lemma
+description: burnside(perms, k) counts colourings with k colours up to a group given as the full list
+  of its permutations (including the identity). necklaces(n, k, flips) counts necklaces (rotations) or
+  bracelets (flips=True). G is the group order.
+time: O(|G|*n)
+memory: O(n)

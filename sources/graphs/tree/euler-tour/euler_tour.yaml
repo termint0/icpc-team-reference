@@ -1,0 +1,5 @@
+name: Euler tour of a tree
+description: 'Iterative DFS returning (tin, tout, order): the subtree of v is order[tin[v]:tout[v]] and
+  u is an ancestor of v iff tin[u] <= tin[v] < tout[u]. Turns subtree queries into range queries.'
+time: O(n)
+memory: O(n)

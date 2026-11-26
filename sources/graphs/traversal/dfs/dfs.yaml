@@ -1,0 +1,5 @@
+name: Depth-first search (iterative)
+description: Returns (preorder, postorder, parent) without recursion, so deep graphs are safe. parent
+  is -1 for the start vertex and -2 for unreachable ones.
+time: O(V + E)
+memory: O(V)

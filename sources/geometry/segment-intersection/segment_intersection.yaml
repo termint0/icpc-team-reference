@@ -1,0 +1,5 @@
+name: Segment intersection
+description: 'Closed segments ab and cd: returns a sorted list of 0, 1 or 2 intersection points (two for
+  a collinear overlap). Exact for integer input (Fractions).'
+time: O(1)
+memory: O(1)

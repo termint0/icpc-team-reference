@@ -1,0 +1,5 @@
+name: Bitmask TSP
+description: Minimum Hamiltonian cycle through all n nodes of a distance matrix; returns (cost, tour starting
+  and ending at 0). Practical up to n of about 15-16 in Python.
+time: O(2^n * n^2)
+memory: O(2^n * n)

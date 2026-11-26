@@ -1,0 +1,6 @@
+name: Inclusion-exclusion
+description: count_divisible_by_any(N, nums) counts x in [1, N] divisible by at least one of nums (lcm-based
+  DFS with pruning); count_coprime(N, n) counts x in [1, N] with gcd(x, n) = 1. k is the number of divisors
+  / distinct primes.
+time: O(2^k)
+memory: O(k)

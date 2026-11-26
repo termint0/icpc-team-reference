@@ -1,0 +1,5 @@
+name: Trie
+description: Trie over strings (or any sequence of hashables) with insert, erase, count(s) and count_prefix(p)
+  (number of inserted words with that prefix). L is the length of the word.
+time: O(L) per operation
+memory: O(total length)

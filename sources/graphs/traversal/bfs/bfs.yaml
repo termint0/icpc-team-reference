@@ -1,0 +1,4 @@
+name: Breadth-first search
+description: Unweighted shortest distances from s on adjacency lists; unreachable vertices get inf.
+time: O(V + E)
+memory: O(V)

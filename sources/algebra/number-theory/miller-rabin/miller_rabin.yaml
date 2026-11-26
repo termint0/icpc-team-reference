@@ -1,0 +1,5 @@
+name: Miller-Rabin primality test
+description: Deterministic for n < 3.3e24 using the first 12 primes as bases (so exact for all 64-bit
+  integers). k is the number of bases (12); each round is one modular exponentiation.
+time: O(k*log(n))
+memory: O(1)

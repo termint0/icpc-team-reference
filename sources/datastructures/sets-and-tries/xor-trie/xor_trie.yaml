@@ -1,0 +1,8 @@
+name: XOR trie
+description: Binary trie over fixed-width integers (a multiset, with erase) answering max_xor(x) = max
+  over stored y of x xor y. bits is the integer width.
+time:
+  insert: O(bits)
+  erase: O(bits)
+  max_xor: O(bits)
+memory: O(n*bits)

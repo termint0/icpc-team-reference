@@ -1,0 +1,5 @@
+name: Floyd-Warshall
+description: All pairs shortest paths on a distance matrix (inf = no edge, d[i][i] = 0), in place. Pairs
+  whose path passes through a negative cycle become -inf.
+time: O(V^3)
+memory: O(V^2)

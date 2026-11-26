@@ -1,0 +1,5 @@
+name: 0-1 BFS
+description: 'Shortest paths when every edge weight is 0 or 1: a deque, with 0-edges pushed to the front.
+  adj[u] = [(v, w)].'
+time: O(V + E)
+memory: O(V)

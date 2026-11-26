@@ -1,0 +1,8 @@
+name: Segment tree (iterative)
+description: Point update, range query on the half-open range [l, r). Needs an associative op with identity
+  e; it need not be commutative. Replace op and e, e.g. (min, inf), (+, 0), (string concat, '').
+time:
+  build: O(n)
+  update: O(log(n))
+  query: O(log(n))
+memory: O(n)

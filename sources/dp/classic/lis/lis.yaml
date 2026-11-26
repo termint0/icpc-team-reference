@@ -1,0 +1,5 @@
+name: Longest increasing subsequence
+description: Patience sorting with binary search; strict=True for strictly increasing, False for non-decreasing.
+  Returns the indices of one longest subsequence.
+time: O(n*log(n))
+memory: O(n)

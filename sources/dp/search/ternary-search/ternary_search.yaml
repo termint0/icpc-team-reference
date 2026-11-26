@@ -1,0 +1,6 @@
+name: Ternary search
+description: ternary_search_float(f, lo, hi) finds the minimum of a unimodal real function; ternary_search_int(f,
+  lo, hi) returns the argmin of a convex integer function (binary search on the slope, safe on plateaus
+  at the minimum). Negate f to maximise.
+time: O(log(range)) evaluations of f
+memory: O(1)

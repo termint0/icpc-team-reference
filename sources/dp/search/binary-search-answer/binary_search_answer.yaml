@@ -1,0 +1,6 @@
+name: Binary search on the answer
+description: first_true(lo, hi, pred) returns the smallest x in [lo, hi) with pred(x) true for a monotone
+  predicate (false...true), or hi if none; binary_search_float is the real-valued version. Time counts
+  predicate evaluations.
+time: O(log(range)) evaluations of pred
+memory: O(1)

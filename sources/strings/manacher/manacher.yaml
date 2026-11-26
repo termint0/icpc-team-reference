@@ -1,0 +1,6 @@
+name: Manacher's algorithm
+description: d1[i] / d2[i] = number of odd / even palindromes centred at i (between i-1 and i), so the
+  longest odd palindrome around i has length 2*d1[i]-1 and the longest even one 2*d2[i]. longest_palindrome
+  returns (start, length).
+time: O(n)
+memory: O(n)

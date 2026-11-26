@@ -1,0 +1,7 @@
+name: Linear sieve (smallest prime factor)
+description: Every composite is crossed off exactly once. Returns (primes, spf) where spf[x] is the smallest
+  prime factor of x (spf[x] == x iff x is prime). factor_spf(x, spf) then factorises any x <= n.
+time:
+  build: O(n)
+  factorize: O(log(x))
+memory: O(n)

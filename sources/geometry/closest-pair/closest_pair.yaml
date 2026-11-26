@@ -1,0 +1,5 @@
+name: Closest pair of points
+description: Divide and conquer on x with a strip check; returns (squared distance, p, q). Needs at least
+  two points; duplicates give distance 0. The y-merge uses a sort, hence the extra log factor.
+time: O(n*log^2(n))
+memory: O(n)

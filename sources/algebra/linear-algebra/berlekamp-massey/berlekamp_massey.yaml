@@ -1,0 +1,5 @@
+name: Berlekamp-Massey
+description: 'Finds the shortest linear recurrence of a sequence mod prime p: returns c_1..c_L with s[i]
+  = sum c_j*s[i-j]. Feed 2L terms to be sure of the answer; n is the sequence length.'
+time: O(n^2)
+memory: O(n)

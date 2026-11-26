@@ -1,0 +1,4 @@
+name: Lyndon factorisation (Duval)
+description: Splits s into a non-increasing sequence of Lyndon words; returns [(start, end), ...].
+time: O(n)
+memory: O(1)

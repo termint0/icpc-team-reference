@@ -1,0 +1,5 @@
+name: Convex hull (monotone chain)
+description: 'Andrew''s algorithm: counter-clockwise hull without collinear points; duplicates ignored;
+  returns the sorted points if there are at most 2 distinct ones.'
+time: O(n*log(n))
+memory: O(n)

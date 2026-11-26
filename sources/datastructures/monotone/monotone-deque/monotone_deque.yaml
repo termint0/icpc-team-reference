@@ -1,0 +1,5 @@
+name: Monotone deque (sliding window)
+description: sliding_window_min(a, k) returns the minimum of every window of length k; negate the values
+  for the maximum.
+time: O(n)
+memory: O(k)

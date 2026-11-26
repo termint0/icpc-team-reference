@@ -1,0 +1,7 @@
+name: 2-SAT
+description: 'TwoSAT(n): literal for variable i is lit(i, True/False); add_or(a, b) adds a clause, add_implies(a,
+  b) an implication. solve() returns one satisfying assignment or None. Uses an iterative Tarjan SCC (scc(adj)
+  returns component ids in reverse topological order).
+  Requires scc (Tarjan).'
+time: O(n + clauses)
+memory: O(n + clauses)

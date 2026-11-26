@@ -1,0 +1,9 @@
+name: Segment tree beats
+description: Range chmin (a[i] = min(a[i], x)) with range sum and range max, using max / second max /
+  count of max per node. The amortised bound grows to O(log^2(n)) if range add is mixed in.
+time:
+  build: O(n)
+  chmin: O(log(n)) amortized
+  sum: O(log(n))
+  max: O(log(n))
+memory: O(n)

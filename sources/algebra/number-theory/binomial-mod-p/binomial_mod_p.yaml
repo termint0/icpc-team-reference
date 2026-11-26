@@ -1,0 +1,7 @@
+name: Binomial coefficients mod a prime
+description: Binomial(N, p) precomputes factorials and inverse factorials mod prime p (p > N); C(n, k)
+  for n <= N returns 0 when k < 0 or k > n.
+time:
+  build: O(N)
+  query: O(1)
+memory: O(N)

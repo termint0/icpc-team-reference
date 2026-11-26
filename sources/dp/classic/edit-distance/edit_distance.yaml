@@ -1,0 +1,5 @@
+name: Edit distance (Levenshtein)
+description: Minimum number of insertions, deletions and substitutions to turn a into b, with two rolling
+  rows.
+time: O(n*m)
+memory: O(m)

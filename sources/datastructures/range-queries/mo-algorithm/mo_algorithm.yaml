@@ -1,0 +1,6 @@
+name: Mo's algorithm
+description: 'Offline range queries on [l, r): reorders queries by block of l (with odd-even ordering
+  on r) and moves a window with add(i) / remove(i), reading the answer with get(). Pass n, the queries
+  and the three callbacks; answers come back in input order. add / remove cost T each.'
+time: O((n + q)*sqrt(n)*T)
+memory: O(n + q)

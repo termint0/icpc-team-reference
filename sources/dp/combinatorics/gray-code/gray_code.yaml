@@ -1,0 +1,6 @@
+name: Gray codes
+description: gray(n) = n xor (n >> 1); successive values differ in one bit. gray_inverse recovers n.
+time:
+  gray: O(1)
+  gray_inverse: O(log(n))
+memory: O(1)

@@ -1,0 +1,5 @@
+name: Bitmask DP (assignment problem)
+description: Min-cost perfect assignment of n workers to n jobs by DP over the set of used jobs; the template
+  for most subset DPs (see also the bitmask TSP in graphs). Practical up to n of about 20.
+time: O(2^n * n)
+memory: O(2^n)

@@ -1,0 +1,6 @@
+name: Half-plane intersection
+description: 'Each half-plane is (p, d): the closed side to the LEFT of the line through p with direction
+  d. Sort by angle and keep a deque; a bounding box (default [-1e6, 1e6]^2) makes the result bounded.
+  Returns the ccw vertices, or [] if the intersection has no area. Exact with integer input.'
+time: O(n*log(n))
+memory: O(n)

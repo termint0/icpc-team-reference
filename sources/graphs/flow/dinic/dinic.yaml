@@ -1,0 +1,8 @@
+name: Dinic's max flow
+description: add_edge(u, v, cap) (returns the edge id; reverse capacity optional for undirected edges),
+  then max_flow(s, t). After the flow, min_cut_side(s) marks the source side of a minimum cut. Iterative
+  DFS, so long paths are safe. Unit-capacity networks run in O(E*sqrt(V)).
+time:
+  general: O(V^2*E)
+  unit capacities: O(E*sqrt(V))
+memory: O(V + E)

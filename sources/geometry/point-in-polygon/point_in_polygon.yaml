@@ -1,0 +1,5 @@
+name: Point in polygon
+description: 'Works for any simple polygon: returns 1 (inside), 0 (on the boundary) or -1 (outside), exact
+  for integer coordinates.'
+time: O(n)
+memory: O(1)

@@ -1,0 +1,6 @@
+name: Number theoretic transform
+description: Exact polynomial multiplication mod 998244353 (primitive root 3); other NTT-friendly primes
+  work by passing mod and g to ntt. ntt works in place on lists whose length is a power of two; convolution_ntt
+  pads for you.
+time: O(n*log(n))
+memory: O(n)
